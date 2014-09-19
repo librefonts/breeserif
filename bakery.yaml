@@ -1,0 +1,5 @@
+commit: HEAD
+process_files: [BreeSerif-Regular.ttf.ttx, src/BreeSerif-Regular.otf.ttx, src/BreeSerif-Regular-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
